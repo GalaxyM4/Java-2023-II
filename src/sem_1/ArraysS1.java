@@ -1,7 +1,7 @@
 package sem_1;
 import java.util.Scanner;
 
-public class Arrays {
+public class ArraysS1 {
     public static void by_number() {
         int[] arr = new int[10];
         arr[0] = 1;
