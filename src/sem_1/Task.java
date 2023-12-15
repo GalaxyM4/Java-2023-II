@@ -6,7 +6,7 @@ import java.util.Scanner;
 public class Task {
     // hola causa, es la tarea monkey, cambiale de nombre si crees que es muy random
     // 🗿
-    public static void causa_descendente() {
+    public static void causa_ascendente() { //de menor a mayor
         int limit;
         int[] numbers;
         Scanner input = new Scanner(System.in);
