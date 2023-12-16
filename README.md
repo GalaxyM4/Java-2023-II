@@ -9,5 +9,5 @@
 
 <p>Este es nuestro repositorio para subir nuestros códigos de *Clase* como también nuestras lindas tareitas. </p>
 
-# <img src="https://media1.giphy.com/media/UW2tFD1sk7FB389Jg3/200w.gif?cid=6c09b9520bf2hr50sdln3vkgfhtlf0dea5hds756qku7x88b&ep=v1_gifs_search&rid=200w.gif&ct=g">Manual:
+# <img src="https://i.gifer.com/YkAw.gif width=30">Manual:
 Hola pe, [click acá](https://github.com/GalaxyM4/Java-2023-II/blob/main/MANUAL.md) para ver el manual.
