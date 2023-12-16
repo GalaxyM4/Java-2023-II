@@ -5,7 +5,7 @@
 * Ruíz Loaysa Deniss Jesús
 * Mejía Irigoín Luis Gerardo
   
-<h1 align="left"><b>¿Qué @$#&$ es esto?</b></h1>
+# <img src="https://i.pinimg.com/originals/a1/18/97/a11897b6b425218936865626d5c15cc8.gif" width="30">¿Qué @$#&$ es esto?
 
 <p>Este es nuestro repositorio para subir nuestros códigos de *Clase* como también nuestras lindas tareitas. </p>
 
