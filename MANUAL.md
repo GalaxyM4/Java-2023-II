@@ -1,5 +1,6 @@
-<img src="https://cdn.discordapp.com/attachments/963177252546314280/1183935527716659221/image.png">
-hola
+
+<img src="https://cdn.discordapp.com/attachments/963177252546314280/1183935527716659221/image.png"> 
+
 # Manual piola insano épico
 Grupo 7
 * Marín Alcalde Victor Arturo 
