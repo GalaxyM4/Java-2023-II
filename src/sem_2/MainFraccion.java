@@ -8,8 +8,17 @@ public class MainF {
 		f.numerador=5;
 		f.denominador=0;
 		
-		System.out.println(f.numerador + "/" + f.denominador);
 		
+		if (f.denominador == 0) {
+			f.numerador=f.numerador; 
+			f.denominador=1;
+		}
+		else {
+			f.numerador=f.numerador;
+			f.denominador=f.denominador; 
+		}
+		
+		System.out.println(f.numerador + "/" + f.denominador);
 	}
 
 }
