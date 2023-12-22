@@ -1,4 +1,4 @@
-package sem_2.class;
+package sem_2.Class;
 import java.util.Scanner;
 public class Circulito {
 
