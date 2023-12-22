@@ -5,6 +5,13 @@
     "version": "0.2.0",
     "configurations": [
         {
+            "type": "java",
+            "name": "Dog",
+            "request": "launch",
+            "mainClass": "sem_2.Dog",
+            "projectName": "Java-2023-II_91e36068"
+        },
+        {
             "name": "Java",
             "type": "java",
             "request": "launch",
