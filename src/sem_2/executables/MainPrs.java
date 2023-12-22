@@ -1,5 +1,5 @@
 package sem_2.executables;
-import sem_2.Person;
+import sem_2.Class.Person;
 
 public class MainPrs {
 	public static void main(String[] args) {

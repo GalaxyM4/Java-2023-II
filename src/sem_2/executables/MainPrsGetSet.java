@@ -1,5 +1,5 @@
 package sem_2.executables;
-import sem_2.PersonGetSet;
+import sem_2.Class.PersonGetSet;
 
 public class MainPrsGetSet {
 	public static void main(String[] args) {

@@ -1,4 +1,4 @@
-package sem_2;
+package sem_2.Class;
 
 public class PersonGetSet { //grasias arturo no termine el getset xdxd
     private String nombre;

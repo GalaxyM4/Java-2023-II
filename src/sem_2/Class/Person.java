@@ -1,4 +1,4 @@
-package sem_2;
+package sem_2.Class;
 
 public class Person {
     private String name;
