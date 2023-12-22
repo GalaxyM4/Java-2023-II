@@ -1,11 +1,10 @@
-package Fracciones;
+package sem_2;
 
-public class Personita {
-	private String nombre;
+public class PersonGetSet { //grasias arturo no termine el getset xdxd
+    private String nombre;
 	private int edad;
 	
-	public Personita(String nombre, int edad) {
-		super();
+	public PersonGetSet(String nombre, int edad) {
 		this.nombre = nombre;
 		this.edad = edad;
 	}
