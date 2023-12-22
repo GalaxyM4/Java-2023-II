@@ -15,4 +15,8 @@ public class Fracción {
             this.den = 1;
         }
     }
+
+    public void show() {
+        System.out.println(num+"/"+den);
+    }
 }
