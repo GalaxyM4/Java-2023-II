@@ -146,7 +146,7 @@ public static void scanner_dog() {
 
 ### Constructores
 Un constructor es como una función que se usa para establecer las propiedades de una clase al mismo momento en las que se invoca.
-> Ejemplo de un constructor, tien
+> Ejemplo de un constructor, para declararlo tiene que terner el mismo nombre de la clase.
 ```java
 public class Person {
     //acá van las propiedades de tu clase
