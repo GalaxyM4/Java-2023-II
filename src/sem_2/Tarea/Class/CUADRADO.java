@@ -28,7 +28,12 @@ public class CUADRADO {
 	
 	public void imprime() {
 		System.out.println(causa +". El resultado de tu ejercicio es: ");
+	if (lado>0) {
 		System.out.println("El perímetro es: "+ (4*lado));
 		System.out.println("EL área es: "+ Math.pow(lado,lado));
+	}
+	else {
+		System.out.println("Un lado negativo no existe 🤓☝");
+	}
 	}
 }
