@@ -28,10 +28,13 @@ public class CIRCUNFERENCIA {
 	
 	
 	public void consola() {
-		System.out.println("HOLA, "+inicio);
-		System.out.println("El Área es: "+Math.pow(radio, radio)+"π");
+		if (radio>0) {
+		System.out.println("El Área es: "+ Math.pow(radio, radio)+"π");
 		System.out.println("La Longitud es: "+ Math.PI*radio);
-
+		}
+		else {
+		System.out.println("Un radio negativo no existe 🤓☝");
+		}
 	}
 	
 	
