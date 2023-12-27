@@ -1,11 +1,13 @@
-package Tarea;
+package sem_2.Tarea.Executables;
 import java.util.Scanner;
+
+import sem_2.Tarea.ClassObj.TRIANGULO;
 
 public class MainT {
 
     public static void main(String[] args) {
         Scanner tri = new Scanner(System.in);
-        TRIANGULO t1 = new TRIANGULO("a", 1, 2, 3);
+        TRIANGULO t1 = new TRIANGULO("JuanitoElMasCapito", 1, 2, 3);
         
         System.out.println("Unecino, ingesa tu nombre: ");
 		t1.setPololo(tri.nextLine());
@@ -19,13 +21,7 @@ public class MainT {
 		System.out.println("Ingresa un lado 3: ");
 		t1.setL3(tri.nextInt());
 		
-tri.close();
-		
-				
-		t1.getPololo();
-		t1.getL1();
-		t1.getL2();
-		t1.getL3();
+		tri.close();
         t1.consola();
     }
 }
