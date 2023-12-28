@@ -511,3 +511,123 @@ public class MainT {
     }
 }
 ```
+### Herencia de clases
+La herencia de clases es basicamente usar propiedades de una clase superior para no volver a escribirla, una subclase puede _heredar_ las propiedades y metodos de su clase superior.
+
+> **La super clase:**
+
+Basicamente aquí esta lo que se va a heredar para las subclases.
+```java
+package sem_3.Class;
+
+public class Transport {
+    public int capacity;
+    public String placa;
+    public String color;
+
+    //Este constructor es el por defecto
+    public Transport() {
+        this.capacity = 0;
+        this.placa = "000-000";
+        this.color = "null";
+    }
+
+    public Transport(int capa, String placa, String color) {
+        //son 3 atributos los que va a tener la superclase, que son los 3 siguientes 🐒
+        this.capacity = capa;
+        this.placa = placa;
+        this.color = color;
+    }
+
+    //Estos son los metodos por defecto de la clase Transport
+    public void run() {
+        System.out.println("El vehículo insano se mueve.");
+    }
+
+    public void stop() {
+        System.out.println("El vehículo insano paró.");
+    }
+}
+```
+>**Una subclase (Car)**
+
+Esta es una subclase, es decir es de tipo Tranport pero los metodos son distintos, en vez de vehículo insano, ahora es terrneitor.
+```java
+package sem_3.Class;
+
+public class Car extends Transport{
+    public Car(int capa, String p, String color) {
+        super(capa, p, color);    
+    }
+
+    //Estos metodos se sobrecargan para que no salga como en la clase padre
+    @Override
+    public void run() {
+        System.out.println("El terreneitor avanzó.");
+    }
+
+    @Override
+    public void stop() {
+        System.out.println("El terreneitor paró.");
+    }
+
+    //Este método es propio de Car
+    public void derrapar() {
+        System.out.println("Derrapación god.");
+    }
+}
+
+```
+>**Otra subclase (Plane)**
+Esta es otra subclase, esta vez es un avionsito insano.
+```java
+package sem_3.Class;
+
+public class Plane extends Transport {
+    public Plane(int capa, String p, String color) {
+        super(capa, p, color);
+    }
+    //Lo mismo, los metodos se sobrecargan para que no salga como en la clase padre
+    @Override
+    public void run() {
+        System.out.println("El avionsito avanzó.");
+    }
+
+    @Override
+    public void stop() {
+        System.out.println("El avionsito paró.");
+    }
+
+    //Ahora este metodo es propio de la clase Plane
+    public void planear() {
+        System.out.println("Planea de la manera mas épica posible");
+    }
+}
+
+```
+>**En el ejecutable:**
+
+Aquí vamos a usar los ejemplos de clase, sublcase y superclase.
+```java
+package sem_3.executable;
+import sem_3.Class.*;
+
+public class MainT {
+    public static void main(String[] args) {
+        System.out.println(" -------------- Transporte (No heredación) -------------- ");
+        Transport t = new Transport(5, "AD2-SR3", "Morao");
+        t.run(); //va a imprimir lo del vehículo insano
+        t.stop(); //va a parar el vehículo insano
+        System.out.println(" -------------- Carro -------------- ");
+        Car c = new Car(5, "ADN-313", "Rojo");
+        c.run(); //ahora en vez de vehículo será terreneitor
+        c.stop();
+        c.derrapar(); //esta función es única de esta clase
+        System.out.println(" -------------- Avión -------------- ");
+        Plane a = new Plane(20, "789", "Blanco");
+        a.run(); //y ahora va a aparecer avión
+        a.stop();
+        a.planear(); //planear xdxd
+    }
+}
+```
