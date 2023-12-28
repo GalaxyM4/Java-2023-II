@@ -27,4 +27,12 @@ public class Transport {
     public void stop() {
         System.out.println("El vehículo insano paró.");
     }
+
+    //Muestra toda la info
+    public void show_all() {
+        System.out.println("Vehículo insano god.");
+        System.out.println("Capacidad: " + capacity);
+        System.out.println("Placa: " + placa);
+        System.out.println("Color: " + color);
+    }
 }
