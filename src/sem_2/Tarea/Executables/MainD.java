@@ -1,9 +1,8 @@
 package sem_2.Tarea.Executables;
 import java.util.Scanner;
-
 import sem_2.Tarea.ClassObj.CUADRADO;
-public class MainD {
 
+public class MainD {
 	public static void main(String[] args) {
 		CUADRADO d1 = new CUADRADO("PepitoElMasCapito", 6);
 		Scanner she = new Scanner(System.in);
@@ -17,5 +16,4 @@ public class MainD {
 		she.close();
 		d1.imprime();
 	}
-
 }

@@ -1,10 +1,8 @@
 package sem_2.Tarea.Executables;
 import java.util.Scanner;
-
 import sem_2.Tarea.ClassObj.TRIANGULO;
 
 public class MainT {
-
     public static void main(String[] args) {
         Scanner tri = new Scanner(System.in);
         TRIANGULO t1 = new TRIANGULO("JuanitoElMasCapito", 1, 2, 3);
