@@ -575,6 +575,14 @@ public class Car extends Transport{
     public void derrapar() {
         System.out.println("Derrapación god.");
     }
+
+    //Muestra toda la info
+    public void show_all() {
+        System.out.println("Vehículo insano god.");
+        System.out.println("Capacidad: " + capacity);
+        System.out.println("Placa: " + placa);
+        System.out.println("Color: " + color);
+    }
 }
 
 ```
@@ -628,6 +636,30 @@ public class MainT {
         a.run(); //y ahora va a aparecer avión
         a.stop();
         a.planear(); //planear xdxd
+    }
+}
+```
+
+>**En otro ejecutable**
+
+Esto es con scanner porque es taréa, xd.
+```java
+public class MainTS {
+    public static void main(String[] args) {
+        Scanner input = new Scanner(System.in);
+        System.out.println("Inserta capacidad.");
+        int cap = input.nextInt();
+        System.out.println("Inserta placa.");
+        String placa = input.next();
+        System.out.println("Inserta inserta color.");
+        String color = input.next();
+        input.close();
+        System.out.println(" -------------- Avión -------------- ");
+        Plane a = new Plane(cap, placa, color);
+        a.run(); //y ahora va a aparecer avión
+        a.stop();
+        a.planear(); //planear xdxd
+        a.show_all();
     }
 }
 ```
