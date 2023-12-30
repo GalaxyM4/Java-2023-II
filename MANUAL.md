@@ -1,6 +1,5 @@
 
-<img src="https://cdn.discordapp.com/attachments/963177252546314280/1183935527716659221/image.png"> 
-<img src="https://img.freepik.com/vector-premium/fondo-banner-azul-marino-oscuro-plantilla-fondo-patron-banner-diseno-grafico-abstracto-vector_181182-18817.jpg" width="900">
+<img src="blob:https://imgur.com/21bec2ce-ee5c-4852-b146-92e22dde6eee" width="900">
 
 # Manual piola insano épico
 Grupo 7
