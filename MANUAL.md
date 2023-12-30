@@ -1,5 +1,5 @@
 
-<img src="blob:https://imgur.com/21bec2ce-ee5c-4852-b146-92e22dde6eee" width="900">
+<img src="https://i.imgur.com/6G6cJ4l.png" width="900">
 
 # Manual piola insano épico
 Grupo 7
