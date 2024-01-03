@@ -30,7 +30,7 @@ public class MainC {
             City new_c = new City(name, population, area);
             listCities.add(new_c);
             Thread.sleep(2000);
-            main(args);
+            new_c.showAll();
         }
         if(selection == 2) {
             Hiroshima c = new Hiroshima();
