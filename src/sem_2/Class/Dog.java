@@ -5,13 +5,17 @@ public class Dog {
     String name;
     String raza;
     Scanner input = new Scanner(System.in);
+    public static void main(String[] args) {
+        scanner_dog();
+    }
+
     public static void manual() {
         Dog per = new Dog();
         per.name = "pepe";
         per.raza = "chusco";
         Dog per2 = new Dog();
-        per.name = "princesito";
-        per.raza = "doberman";
+        per2.name = "princesito";
+        per2.raza = "doberman";
 
         System.out.println("Perro 😺");
         System.out.println("Se llama " + per.name);
