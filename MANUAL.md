@@ -8,7 +8,7 @@ Grupo 7
 * Mejía Irigoín Luis Gerardo
 # Introducción
 Bienvenido a esta basofia de manual, aquí vas a ver algunos temas que se vió en el curso Algoritmos y Estructuras, espero que la persona que esta leyendo esto entienda los códigos xdxdxd, saludos.
-## Arreglos pe:
+## Arreglos:
 Primer tema omg
 > Un arreglo es un conjunto de elementos del mismo tipo *al menos en java*.
 ### Números pares
