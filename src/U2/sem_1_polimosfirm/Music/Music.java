@@ -1,8 +1,10 @@
 package U2.sem_1_polimosfirm.Music;
+import java.io.File;
 
 public abstract class Music {
+    File path;
     String name;
-    double time;
     String artist;
+    double time;
     int age;
 }

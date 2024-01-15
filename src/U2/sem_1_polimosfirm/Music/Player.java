@@ -6,4 +6,5 @@ public abstract class Player extends Music{
     long users;
     long downloads;
     public abstract void load_music();
+    public abstract void start_music(int opt);
 }

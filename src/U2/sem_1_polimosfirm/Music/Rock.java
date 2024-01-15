@@ -1,11 +1,13 @@
 package U2.sem_1_polimosfirm.Music;
+import java.io.File;
 
 public class Rock extends Genre implements IMusic {
-    public Rock(String name, double time, String artist,int age) {
+    public Rock(String name, double time, String artist,int age, File f) {
         this.name = name;
         this.time = time;
         this.artist = artist;
         this.age = age;
+        this.path = f;
         //properities
         this.instrument = "Guitarra Eléctrica";
         this.voice = true;
