@@ -1,6 +1,24 @@
-### Ordenar arrays
+## Números por scanner
+Ahora tú decides el límite de números a mostrar 🦍.
+```java
+public static void choicexdxd() {
+    Scanner input = new Scanner(System.in);
+    int limit;
+    int[] numbers;
+    System.out.println("Habla causa, inserta el límite:");
+    limit = input.nextInt(); //aca se inserta el límite
+    numbers = new int[limit];
+    input.close();
+    for(int i = 1; i <= limit; i++) {
+        numbers[i] = i;
+        System.out.println(i); //Se imprime los números 🦈
+    }
+}
+```
+
+## Ordenar arrays
 El título lo dice 🦤.
-#### Explicación:
+### Explicación:
 Bien, el código lo que hace es comprobar elemento por elemento del array para verificar si este es mayor o menor al elemento anterior, para ir llevando al número mayor o menor al índice 0 y lo demas al final.
 
 > **Orden Ascendente** 
@@ -62,3 +80,5 @@ public static void causa_decendente() { // de mayor a menor, un copia y pega ins
     }
 ```
 Facilísimo verdad?
+
+<img src="https://images7.memedroid.com/images/UPLOADED828/604c3fbb2b387.jpeg" width=300>
