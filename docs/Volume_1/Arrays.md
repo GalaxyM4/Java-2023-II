@@ -1,3 +1,22 @@
+## Arreglos:
+Primer tema omg
+> Un arreglo es un conjunto de elementos del mismo tipo *al menos en java*.
+### Números pares
+Básicamente imprime números pares del 1 al 10.
+
+[Ver](../../src/U1/sem_1/ArraysS1.java) archivo.
+```java
+```java
+public static void  by_loop() {
+    int[] arr = new int[10];
+
+    for(int i = 0; i < arr.length ; i++) { //un simple bucle 🐒
+        arr[i] = i+1;
+        System.out.println(arr[i]);
+    }
+}
+```
+
 ## Números por scanner
 Ahora tú decides el límite de números a mostrar 🦍.
 
