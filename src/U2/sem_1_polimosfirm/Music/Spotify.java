@@ -35,11 +35,12 @@ public class Spotify extends Player {
         try {
             int seconds = 1;
             Music m_class = list_son[opt];
+            String sec_complete = (m_class.time%60 < 10) ? "0"+((int)m_class.time%60) : m_class.time%60+"";
             System.out.print("\033[H\033[2J");  
             System.out.flush();
             PrintColor.printlnColor("Reproduciendo en Spotify...", PrintColor.GREEN);
             PrintColor.printlnColor(m_class.name, PrintColor.CYAN);
-            PrintColor.printlnColor("(0:00/"+(int)(m_class.time/60)+":"+(int)(m_class.time%60)+")", PrintColor.BLUE_BACKGROUND);
+            PrintColor.printlnColor("(0:00/"+(int)(m_class.time/60)+":"+sec_complete+")", PrintColor.BLUE_BACKGROUND);
             AudioInputStream audioIn = AudioSystem.getAudioInputStream(list_music.get(opt));
             Clip clip = AudioSystem.getClip();
             clip.open(audioIn);
@@ -48,17 +49,15 @@ public class Spotify extends Player {
             while (true) {
                 clip.start();
                 int minutes = seconds/60;
-                int sec = seconds%60;
+                String sec = (seconds%60 < 10) ? "0"+(seconds%60) : seconds%60+"";
                 Thread.sleep(1000);
                 System.out.print("\033[H\033[2J");  
                 System.out.flush();
                 PrintColor.printlnColor("Reproduciendo en SpotifyChad...", PrintColor.GREEN);
                 PrintColor.printlnColor(m_class.name, PrintColor.CYAN);
-                if(sec < 10) {
-                    PrintColor.printlnColor("("+minutes+":0"+sec+"/"+(int)(m_class.time/60)+":"+(int)(m_class.time%60)+")", PrintColor.BLUE_BACKGROUND);
-                }else {
-                    PrintColor.printlnColor("("+minutes+":"+sec+"/"+(int)(m_class.time/60)+":"+(int)(m_class.time%60)+")", PrintColor.BLUE_BACKGROUND);
-                }
+
+                PrintColor.printlnColor("("+minutes+":"+sec+"/"+(int)(m_class.time/60)+":"+sec_complete+")", PrintColor.BLUE_BACKGROUND);
+                
                 int prog = (50*seconds)/(int)m_class.time;
                 char[] iguales = new char[prog+1];
                 char[] espacios = new char[(49-prog)];
