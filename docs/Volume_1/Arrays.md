@@ -1,5 +1,7 @@
 ## Números por scanner
 Ahora tú decides el límite de números a mostrar 🦍.
+
+[Ver](../../src/U1/sem_1/ArraysS1.java) archivo.
 ```java
 public static void choicexdxd() {
     Scanner input = new Scanner(System.in);
@@ -23,7 +25,7 @@ Bien, el código lo que hace es comprobar elemento por elemento del array para v
 
 > **Orden Ascendente** 
 
-Click [aquí](../../src/U1/sem_1/ArraysS1.java) para ver el archivo.
+Click [aquí](../../src/U1/sem_1/Task.java) para ver el archivo.
 ```java
 public static void causa_ascendente() { //de menor a mayor
         int limit;
@@ -81,4 +83,4 @@ public static void causa_decendente() { // de mayor a menor, un copia y pega ins
 ```
 Facilísimo verdad?
 
-<img src="https://images7.memedroid.com/images/UPLOADED828/604c3fbb2b387.jpeg" width=300>
+<img src="https://images7.memedroid.com/images/UPLOADED828/604c3fbb2b387.jpeg" width=200>
