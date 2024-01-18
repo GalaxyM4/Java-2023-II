@@ -64,7 +64,7 @@ public class YTMusic extends Player {
                 char[] espacios = new char[(49-prog)];
 
                 for(int i = 0; i < prog; i++) {
-                    iguales[i] = '▓';
+                    iguales[i] = '░';
                 }
                 for(int i = 0; i < (49-prog); i++) {
                     espacios[i] = '-';

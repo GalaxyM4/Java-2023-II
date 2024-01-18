@@ -35,7 +35,7 @@ public class Spotify extends Player {
         try {
             int seconds = 1;
             Music m_class = list_son[opt];
-            String sec_complete = (m_class.time%60 < 10) ? "0"+((int)m_class.time%60) : m_class.time%60+"";
+            String sec_complete = (m_class.time%60 < 10) ? "0"+((int)m_class.time%60) : (int)m_class.time%60+"";
             System.out.print("\033[H\033[2J");  
             System.out.flush();
             PrintColor.printlnColor("Reproduciendo en Spotify...", PrintColor.GREEN);
@@ -63,7 +63,7 @@ public class Spotify extends Player {
                 char[] espacios = new char[(49-prog)];
 
                 for(int i = 0; i < prog; i++) {
-                    iguales[i] = '▓';
+                    iguales[i] = '█';
                 }
                 for(int i = 0; i < (49-prog); i++) {
                     espacios[i] = '-';
