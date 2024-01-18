@@ -46,7 +46,7 @@ public class Spotify extends Player {
             clip.open(audioIn);
             clip.start();
             clip.loop(Clip.LOOP_CONTINUOUSLY);
-            while (true) {
+            while (seconds < m_class.time) {
                 clip.start();
                 int minutes = seconds/60;
                 String sec = (seconds%60 < 10) ? "0"+(seconds%60) : seconds%60+"";

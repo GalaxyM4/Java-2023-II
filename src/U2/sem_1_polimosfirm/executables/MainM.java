@@ -66,7 +66,7 @@ public class MainM {
     public static Music[] get_songs() {
         //export
         Music[] music = new Music[]{
-            new Electro("Alastor's Game", 187, "The Living Tombstone", 2020, new File("C:\\Users\\Dell\\Desktop\\u ene ce yo\\CICLO II\\Algoritmos\\Java-2023-II\\src\\U2\\sem_1_polimosfirm\\Music\\song\\AlastorsGame.wav")),
+            new Electro("Alastor's Game", 185, "The Living Tombstone", 2020, new File("C:\\Users\\Dell\\Desktop\\u ene ce yo\\CICLO II\\Algoritmos\\Java-2023-II\\src\\U2\\sem_1_polimosfirm\\Music\\song\\AlastorsGame.wav")),
             new Rock("Come As You Are", 244, "Nirvana", 1991, new File("C:\\Users\\Dell\\Desktop\\u ene ce yo\\CICLO II\\Algoritmos\\Java-2023-II\\src\\U2\\sem_1_polimosfirm\\Music\\song\\ComeAsYouAre.wav")),
             new Rock("Holiday", 232, "Green Day", 2005, new File("C:\\Users\\Dell\\Desktop\\u ene ce yo\\CICLO II\\Algoritmos\\Java-2023-II\\src\\U2\\sem_1_polimosfirm\\Music\\song\\Holiday.wav")),
             new Rock("Life is Life", 244, "Opus", 1984, new File("C:\\Users\\Dell\\Desktop\\u ene ce yo\\CICLO II\\Algoritmos\\Java-2023-II\\src\\U2\\sem_1_polimosfirm\\Music\\song\\LifeIsLife.wav")),
