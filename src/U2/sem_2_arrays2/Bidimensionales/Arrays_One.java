@@ -1,4 +1,4 @@
-package U2.sem_2_arrays2;
+package U2.sem_2_arrays2.Bidimensionales;
 import java.util.Scanner;
 import Utils.PrintColor;
 
