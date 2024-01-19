@@ -22,27 +22,4 @@ public class MatrixSc {
         input.close();
         Matrix.print_matrix2d(m);
     }
-
-    public static void print_matrix2d(int[][] matrix) {
-        int length_x = matrix.length;
-        int length_y = matrix[0].length;
-        for (int x = 0; x < length_x; x++) {
-            for (int y = 0; y < length_y; y++) {
-                if(y == length_y-1) {
-                    if(matrix[x][y] <= 9) {
-                        System.out.println("0"+matrix[x][y]);
-                    }else {
-                        System.out.println(matrix[x][y]);
-                    };
-                }else {
-                    if(matrix[x][y] <= 9) {
-                        System.out.print("0"+matrix[x][y] + " ");
-                    }else {
-                        System.out.print(matrix[x][y] + " ");
-                    }
-                }
-                
-            }
-        }
-    }
 }
