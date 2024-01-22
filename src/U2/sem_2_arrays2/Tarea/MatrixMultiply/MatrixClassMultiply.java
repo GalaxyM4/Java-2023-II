@@ -1,7 +1,6 @@
 import java.util.Scanner;
 
 public class MatrixClassMultiply {
-
 	protected int[][] MatrixGeneral;
 	protected int rogue;
 	protected int empire;
@@ -37,7 +36,6 @@ public class MatrixClassMultiply {
 	public int getMG(int rogue, int empire) {
 		return MatrixGeneral[rogue][empire];
 	}
-
 
 	public MatrixClassMultiply MultMatrix(MatrixClassMultiply SegundaM) {
 		if (this.empire != SegundaM.rogue) {
