@@ -57,14 +57,15 @@ public class MatrixClassMultiply {
 	}
 
 	public void Digita() {
-		Scanner n = new Scanner(System.in);
-		System.out.println("Ingresa los valores de la Matrix:");
+		try (Scanner n = new Scanner(System.in)) {
+			System.out.println("Ingresa los valores de la Matrix:");
 
-		for (int i=0; i<rogue; i++) {
-			for(int j=0; j<empire; j++) {
-				System.out.print("Ingresa Posición [" + i + "]["+j+"]:");
-				int pos = n.nextInt();
-				setMG(i, j, pos);
+			for (int i=0; i<rogue; i++) {
+				for(int j=0; j<empire; j++) {
+					System.out.print("Ingresa Posición [" + i + "]["+j+"]:");
+					int pos = n.nextInt();
+					setMG(i, j, pos);
+				}
 			}
 		}
 	}
