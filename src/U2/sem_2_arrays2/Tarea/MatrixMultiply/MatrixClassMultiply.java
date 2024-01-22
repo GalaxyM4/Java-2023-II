@@ -67,7 +67,6 @@ public class MatrixClassMultiply {
 				setMG(i, j, pos);
 			}
 		}
-		n.close();
 	}
 
 	public void Consola() {
