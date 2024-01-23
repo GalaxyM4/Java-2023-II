@@ -7,14 +7,15 @@ public class MainS {
     public static void main(String[] args) {
         int filasw;
         int columnas;
+        Scanner s = new Scanner(System.in);
         do {
             System.out.print("Número de filas: ");
-            filasw = leerEntero();
+            filasw = leerEntero(s);
         } while (filasw < 1);
 
         do {
             System.out.print("Número de columnas: ");
-            columnas = leerEntero();
+            columnas = leerEntero(s);
         } while (columnas < 1);
 
         // crear las matrices A y B
@@ -44,21 +45,21 @@ public class MainS {
     }
 
     // método para leer un número entero por teclado uwu
-    public static int leerEntero() {
-        try (Scanner luis = new Scanner(System.in)) {
-            int n = luis.nextInt();
-            return n;
-        }
+    public static int leerEntero(Scanner luis) {
+        int n = luis.nextInt();
+        return n;       
     }
 
     // método para llenar una matriz waza
     public static void llenarMatriz(int[][] M) {
+        Scanner si = new Scanner(System.in);
         for (int i = 0; i < M.length; i++) {
             for (int j = 0; j < M[i].length; j++) {
                 System.out.print("Elemento[" + i + "][" + j + "] = ");
-                M[i][j] = leerEntero();
+                M[i][j] = leerEntero(si);
             }
         }
+
     }
 
     public static void mostrarMatriz(int[][] M) {
