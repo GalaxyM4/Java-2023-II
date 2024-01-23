@@ -8,7 +8,6 @@ public class MatrixClassMultiply {
 	private Scanner input = new Scanner(System.in);
 
 	public MatrixClassMultiply(int f, int c) {
-		super();
 		this.MatrixGeneral = new int[f][c];
 		this.rogue = f;
 		this.empire = c;
