@@ -4,6 +4,8 @@ public class MatrixClassMultiply {
 	protected int[][] MatrixGeneral;
 	protected int rogue;
 	protected int empire;
+	//
+	private Scanner input = new Scanner(System.in);
 
 	public MatrixClassMultiply(int f, int c) {
 		super();
@@ -55,15 +57,13 @@ public class MatrixClassMultiply {
 	}
 
 	public void Digita() {
-		try (Scanner n = new Scanner(System.in)) {
-			System.out.println("Ingresa los valores de la Matrix:");
+		System.out.println("Ingresa los valores de la Matrix:");
 
-			for (int i=0; i<rogue; i++) {
-				for(int j=0; j<empire; j++) {
-					System.out.print("Ingresa Posición [" + i + "]["+j+"]:");
-					int pos = n.nextInt();
-					setMG(i, j, pos);
-				}
+		for (int i=0; i<rogue; i++) {
+			for(int j=0; j<empire; j++) {
+				System.out.print("Ingresa Posición [" + i + "]["+j+"]:");
+				int pos = input.nextInt();
+				setMG(i, j, pos);
 			}
 		}
 	}
