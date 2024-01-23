@@ -24,6 +24,7 @@ public class MatrixTimes {
                 }
             }
             Matrix.print_matrix2d(m);
+            c++;
         }
         input.close();
     }
