@@ -5,10 +5,10 @@ import java.util.List;
 
 public class DeckCards {
     public Card[] deck;
-    public static String[] symbols = new String[]{"=>", "*", "<3", "<>"};
+    public static String[] symbols = new String[]{"espada", "trebol", "corazon", "rombo"};
 
     public DeckCards() {
-        System.out.println("Gerando mazo...");
+        System.out.println("Generando mazo...");
         this.generate_cards();
     }
 
