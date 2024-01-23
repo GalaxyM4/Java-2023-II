@@ -2,6 +2,7 @@ package U2.sem_2_arrays2.Tarea.MatrixSum;
 
 import java.util.Scanner;
 
+// derechos de autor a deniss 🐒
 public class MainS {
     public static void main(String[] args) {
         int filasw;
