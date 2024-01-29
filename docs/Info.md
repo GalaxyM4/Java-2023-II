@@ -9,3 +9,7 @@ Grupo 7
 Bienvenido a esta basofia de manual, aquí vas a ver algunos temas que se vió en el curso Algoritmos y Estructuras, espero que la persona que esta leyendo esto entienda los códigos xdxdxd, saludos.
 
 # Índice
+## Volumen 1
+1. [Arrays](Volume_1/Arrays.md)
+2. [Clases](Volume_1/Clases.md)
+3. [Tarea](Volume_1/Tarea.md)
