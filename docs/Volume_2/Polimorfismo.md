@@ -48,4 +48,18 @@ public class AccountSaving extends Account{
 }
 ```
 
-Luego añado los otros ejemplos 🦍
+## Clase interfaz
+Estas clases normalmente se usan para crear metodos que luego en las subclases se tienen que definir con una acción.
+
+>**Clase abstracta**
+
+Ver [archivo](../../src/U2/sem_1_polimosfirm/Figure/IFigura.java)
+
+```java
+package U2.sem_1_polimosfirm.Figure;
+
+public interface IFigura{
+    void showArea();
+    void showPerimeter();
+}
+```
