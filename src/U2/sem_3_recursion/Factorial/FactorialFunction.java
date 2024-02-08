@@ -1,5 +1,4 @@
 package U2.sem_3_recursion.Factorial;
-
 import Utils.PrintColor;
 
 public class FactorialFunction {
