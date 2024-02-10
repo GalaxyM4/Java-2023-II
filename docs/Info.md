@@ -17,4 +17,4 @@ Bienvenido a esta basofia de manual, aquí vas a ver algunos temas que se vió e
 ## Volumen 2
 1. [Polimorfismo](Volume_2/Polimorfismo.md)
 2. [Matrices](Volume_2/ArraysVol2.md)
-3. [Recursion](Volume_2/Recursion.md)
+3. [Recursividad](Volume_2/Recursion.md)
