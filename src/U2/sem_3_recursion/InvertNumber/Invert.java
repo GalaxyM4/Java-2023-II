@@ -7,7 +7,7 @@ public class Invert {
         int div = n/10;
         int res = n%10;
 
-        PrintColor.printColor("El número invertido es: "+res, PrintColor.GREEN);
+        PrintColor.printColor(""+res, PrintColor.GREEN);
         if(div != 0) {
             n = div;
             invert(n);
