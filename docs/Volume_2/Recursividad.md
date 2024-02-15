@@ -18,7 +18,6 @@ public class RShow {
 }
 ```
 
-
 ### Clase recursiva multiplicación
 Como sabemos una multiplicación es una suma repetida, en este ejemplo vamos a usar la recursividad para generar un método que sume los números y así se genere una multiplicación. ♻️
 
@@ -38,3 +37,46 @@ public class Multiply {
 }
 ```
 
+### Clase recursiva división
+Así como la multiplicación es una suma repetida, se podría considerar la división como una resta repetida, ahora solo se aplica el mismo concepto de recursividad para poder hallar el cociente.
+
+
+Ver [archivo](../../src/U2/sem_3_recursion/SubstractionDiv/Division.java)
+```java
+package U2.sem_3_recursion.SubstractionDiv;
+
+import Utils.PrintColor;
+
+public class Division {
+    public static int div(int num, int den) {
+        if(den == 0) {
+            throw new Error(PrintColor.RED + "El denominador tiene que ser diferente de 0" + PrintColor.RESET);
+        }
+        if(den > num) {
+            return 0;
+        }else {
+            return div(num-den, den)+1;
+        }
+    }
+}
+```
+
+### Función factorial
+La función factorial en matemática se define por x!, y es multiplicar por todos los números anteriores a este hasta llegar a uno, se tiene por dominio solo los enteros positivos 🤓.
+
+Ver [archivo](../../src/U2/sem_3_recursion/Factorial/FactorialFunction.java)
+```java
+public class FactorialFunction {
+    public static int fact(int n) {
+        if(n < 0) {
+            throw new Error(PrintColor.RED+"El factorial tiene por dominio los Z+."+PrintColor.RESET);
+        };
+        if(n == 0) return 1;
+        if(n == 1) {
+            return 1;
+        }else {
+            return fact(n-1)*(n);
+        }
+    }
+}
+```
