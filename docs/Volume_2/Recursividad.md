@@ -64,11 +64,11 @@ public class Division {
 ## Función factorial
 La función factorial en matemática se define por x!, y es multiplicar por todos los números anteriores a este hasta llegar a uno, se tiene por dominio solo los enteros positivos 🤓, como se ve en la siguiente ecuación.
 
-<img src="https://wikimedia.org/api/rest_v1/media/math/render/svg/4234ee890533fa15c15af33b07648b46ef87f08a" width=170>
+<img src="https://cdn.discordapp.com/attachments/858111859910770719/1207534635840700427/invert.png?ex=65dfff44&is=65cd8a44&hm=a8ec2a6fa43e120961b0c99f4d0cf275a7d5e77ec888eb7c0619973d361f8ce2&" width=170>
 
 Y este también tiene un dominio:
 
-<img src="https://wikimedia.org/api/rest_v1/media/math/render/svg/7df01318a5eb46249679bca02374522a590ea4aa" width=500>
+<img src="https://cdn.discordapp.com/attachments/858111859910770719/1207534748453568552/invert.png?ex=65dfff5e&is=65cd8a5e&hm=4cf2159a67c40d58a4a8fe349db5a9c31a3caa0a6aabdfb75b86a2ee5201f199&" width=500>
 
 Ver [archivo](../../src/U2/sem_3_recursion/Factorial/FactorialFunction.java)
 ```java
