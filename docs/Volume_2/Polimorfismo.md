@@ -1,8 +1,8 @@
-## Polimorfismo
+# Polimorfismo
 Primer tema de la segunda unidad, omg.
 Empezamos con que el polimorfismo es que una clase responda al momento de una invocación de una manera distinta según el tipo de parámetros que se le brinde.
 
-### Clases abstractas
+## Clases abstractas
 Una clase abstracta es una clase que por si sola no tiene función alguna, pero que se usa como modelo para crear otra clase, ejm:
 
 > Clase abstracta:
@@ -19,7 +19,7 @@ public abstract class Account { //Esta clase no tiene función 🤓
 
 ```
 
-### Clases derivadas de la abstracta
+## Clases derivadas de la abstracta
 Estas clases son las que se van a derivar de la [clase padre](#clases-abstractas), para crearse.
 
 > Clase derivada de la clase anterior:
