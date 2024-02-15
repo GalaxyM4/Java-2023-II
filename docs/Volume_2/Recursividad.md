@@ -62,7 +62,13 @@ public class Division {
 ```
 
 ### Función factorial
-La función factorial en matemática se define por x!, y es multiplicar por todos los números anteriores a este hasta llegar a uno, se tiene por dominio solo los enteros positivos 🤓.
+La función factorial en matemática se define por x!, y es multiplicar por todos los números anteriores a este hasta llegar a uno, se tiene por dominio solo los enteros positivos 🤓, como se ve en la siguiente ecuación.
+
+<img src="https://wikimedia.org/api/rest_v1/media/math/render/svg/4234ee890533fa15c15af33b07648b46ef87f08a" width=170>
+
+Y este también tiene un dominio:
+
+<img src="https://wikimedia.org/api/rest_v1/media/math/render/svg/7df01318a5eb46249679bca02374522a590ea4aa" width=500>
 
 Ver [archivo](../../src/U2/sem_3_recursion/Factorial/FactorialFunction.java)
 ```java
@@ -76,6 +82,24 @@ public class FactorialFunction {
             return 1;
         }else {
             return fact(n-1)*(n);
+        }
+    }
+}
+```
+
+### Teorema de eculides
+El método de euclides para hallar el MCD de 2 números tambien se podría aplicar el principio de recursividad.
+
+```java
+public class Euclid {
+    public static int euclid(int n1, int n2) {
+        int res = n1%n2;
+        System.out.print(n1 + " ");
+        if(res == 0) {
+            System.out.print(n2);
+            return n2;
+        }else {
+            return euclid(n2, res);
         }
     }
 }
