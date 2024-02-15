@@ -6,7 +6,7 @@ Grupo 7
 * Ruíz Loaysa Deniss Jesús
 * Mejía Irigoín Luis Gerardo
 # Introducción
-Bienvenido a esta basofia de manual, aquí vas a ver algunos temas que se vió en el curso Algoritmos y Estructuras, espero que la persona que esta leyendo esto entienda los códigos xdxdxd, saludos.
+Bienvenido a esta basofia de manual, aquí vas a ver todos temas que se vió en el curso Algoritmos y Estructuras, espero que la persona que esta leyendo esto entienda los códigos xdxdxd, por cada unidad que pase se irá añadiendo un nuevo Volumen, en total serían 3 volumenes por cada unidad, y en cada actualización se mejorará respecto a la anterior.
 
 # Índice
 ## Volumen 1
