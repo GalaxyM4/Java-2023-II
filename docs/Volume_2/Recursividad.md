@@ -90,6 +90,9 @@ public class FactorialFunction {
 ## Teorema de eculides
 El método de euclides para hallar el MCD de 2 números tambien se podría aplicar el principio de recursividad.
 
+Imagen de referencia:
+
+<img src="https://cdn.discordapp.com/attachments/858111859910770719/1207535884556304444/image.png?ex=65e0006d&is=65cd8b6d&hm=4484fcf47f7200c811cd5998be1d292e048e5215ae8a41a6b098eb7bcbe96e8b&" width=500>
 
 Ver [archivo](../../src/U2/sem_3_recursion/Euclides/Euclid.java)
 ```java
