@@ -1,7 +1,8 @@
-## Arreglos:
+[Volver](../Info.md)
+# Arreglos:
 Primer tema omg
 > Un arreglo es un conjunto de elementos del mismo tipo *al menos en java*.
-### Números pares
+## Números pares
 Básicamente imprime números pares del 1 al 10.
 
 [Ver](../../src/U1/sem_1/ArraysS1.java) archivo.
@@ -17,7 +18,7 @@ public static void  by_loop() {
 }
 ```
 
-## Números por scanner
+# Números por scanner
 Ahora tú decides el límite de números a mostrar 🦍.
 
 [Ver](../../src/U1/sem_1/ArraysS1.java) archivo.
@@ -37,9 +38,9 @@ public static void choicexdxd() {
 }
 ```
 
-## Ordenar arrays
+# Ordenar arrays
 El título lo dice 🦤.
-### Explicación:
+## Explicación:
 Bien, el código lo que hace es comprobar elemento por elemento del array para verificar si este es mayor o menor al elemento anterior, para ir llevando al número mayor o menor al índice 0 y lo demas al final.
 
 > **Orden Ascendente** 
