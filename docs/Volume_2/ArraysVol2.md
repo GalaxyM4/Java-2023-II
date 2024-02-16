@@ -1,6 +1,13 @@
+[Volver](../Info.md)
 # Arrays con dimensiones específicas
 ## Unidimensionales
 Estos arrays (listas) tienen una sola dimension, para entenderlo imaginate los elementos de la lista ordenados de forma lineal.
+
+Ejm:
+
+<img src="https://codesitio.com/wp-content/uploads/2017/12/TABLA.png" width=500>
+
+<br />
 
 >**Ejemplo del dado**
 
