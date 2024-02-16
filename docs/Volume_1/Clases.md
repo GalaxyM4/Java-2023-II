@@ -1,8 +1,9 @@
-## Clases y objetos
+[Volver](../Info.md)
+# Clases y objetos
 Segundo tema waos.
 > Una clase es como un modelo para un objeto, oséa, la clase es el molde de una galleta y el objeto es la galleta 🦆
 
-### Asignar propiedades
+## Asignar propiedades
 Una propiedad, atributo, elemento, como se te salga llamarle, es algo que está dentro de la clase la cual lo puedes cambiar a tu gusto, si es que lo deseas.
 > Manualmente, osea desde código, en otras palabras estableces cada propiedad manualmente:
 
@@ -49,7 +50,7 @@ public class Dog {
 }
 ```
 
-### Constructores
+## Constructores
 Un constructor es como una función que se usa para establecer las propiedades de una clase al mismo momento en las que se invoca.
 > Ejemplo de un constructor, para declararlo tiene que terner el mismo nombre de la clase.
 
@@ -83,7 +84,7 @@ public class MainPrs {
 }
 ```
 
-### Getters and Setters
+## Getters and Setters
 Esto normalmente se usa para establecer o obtener las propiedades de una clase, independientemente si esta es privada.
 Ver [archivo](../../src/U1/sem_2/Class/PersonGetSet.java)
 > Creando la clase con los Getters y Settters 🦍
@@ -136,7 +137,7 @@ public class MainPrsGetSet {
 	}
 }
 ```
-### Un metodo
+## Un metodo
 La función `toString()` va a retornar un valor String de la clase. 
 ```java
 public class DogOver {
@@ -149,7 +150,7 @@ public class DogOver {
 }
 ```
 
-### Sobrecargas
+## Sobrecargas
 Las sobrecargas se usan para argumentos opcionales, oséa colocar los argumentos que crees que son obligatorios.
 > Se define la clase con sobrecargas.
 
