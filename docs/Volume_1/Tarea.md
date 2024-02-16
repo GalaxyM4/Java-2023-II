@@ -1,4 +1,5 @@
-## Tarea insana de Clases
+[Volver](../Info.md)
+# Tarea insana de Clases
 Esta es la tarea de los 3 polígonos que los vamos a crear en Clases independientes, salu2 ♻️♻️
 
 > **Circunferencia class**
