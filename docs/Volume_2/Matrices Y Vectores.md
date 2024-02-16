@@ -1,3 +1,4 @@
+[Volver](../Info.md)
 # Vectores
 Un vector se diferencia en que solo tiene una dimensión, para este ejemplo se va a crear una clase donde se contiene un vector para modificarlo a gusto.
 
@@ -81,7 +82,10 @@ public class VectorNew {
 # Matrices
 Una matriz es como un vector, pero de más dimensiones, puedes colocar las que vos necesites pero normalmente no se suelen usar mas de 3.
 
-En el siguiente ejemplo se va a crear una matriz de 2 dimensiones.
+En el siguiente ejemplo se va a crear una matriz de 2 dimensiones:
+<img src="https://cdn.discordapp.com/attachments/858111859910770719/1207895726537973780/image.png?ex=65e14f8e&is=65ceda8e&hm=412485ec6d44a18cba02602bea5071f1ebfa046ec2098b46aaa8bcf4139f30ef&" width=500>
+
+<br />
 
 Ver [archivo](../../src/U2/sem_4_class/MatrixClass.java)
 ```java
