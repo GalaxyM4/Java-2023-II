@@ -1,6 +1,9 @@
+[Volver](../Info.md)
 # Polimorfismo
 Primer tema de la segunda unidad, omg.
-Empezamos con que el polimorfismo es que una clase responda al momento de una invocación de una manera distinta según el tipo de parámetros que se le brinde.
+Empezamos con que el polimorfismo es que una clase responda al momento de una invocación de una manera distinta según el tipo de parámetros que se le brinde, un ejemplo en la imagen.
+
+<img src="https://media.licdn.com/dms/image/C5612AQFsDORWvbuAyw/article-cover_image-shrink_600_2000/0/1564554595055?e=2147483647&v=beta&t=B030rDJGpNszkLv9Ek2xDbuDhjeB1p7Cly56x8kSpBc" width=500>
 
 ## Clases abstractas
 Una clase abstracta es una clase que por si sola no tiene función alguna, pero que se usa como modelo para crear otra clase, ejm:
