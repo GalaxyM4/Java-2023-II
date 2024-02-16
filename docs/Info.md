@@ -2,7 +2,7 @@
 
 # Manual piola insano épico
 Grupo 7
-* Marín Alcalde Victor Arturo 
+* Marín Alcalde Víctor Arturo 
 * Ruíz Loaysa Deniss Jesús
 * Mejía Irigoín Luis Gerardo
 # Introducción
