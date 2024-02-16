@@ -6,6 +6,7 @@ Para este problema se consideró crear una matriz de vectores de tipo float como
 
 Una vez terminado se calculará el promedio y si es mayor o igual a 12, estará aprobado.
 
+Ver [archivo](../../src/U2/exam_u2/ej1/Notes.java)
 ```java
 import java.util.Scanner;
 import java.util.Vector;
