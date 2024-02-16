@@ -1,3 +1,4 @@
+[Volver](../Info.md)
 # Ejercicio 1
 El profesor encargado del curso de Algoritmos y Estructura de Datos ha registrado los nombres de sus N alumnos en un vector, y ha almacenado las 3 notas obtenidas por cada uno durante el semestre en una matriz. Se solicita crear un programa que presente el promedio académico de cada estudiante. Además, se debe exhibir el nombre de aquellos alumnos que han aprobado el curso, dado que la calificación mínima para aprobar es 12.
 
