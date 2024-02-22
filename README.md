@@ -6,8 +6,8 @@ Bienvenido estimado lector programador. **Hemos creado este repositorio para sub
 
 > Puedes revisar la documentación de cada uno de nuestros códigos para aprender más de este lenguaje. **_Recuerda_:** _Si empleas un proyecto a futuro, sería recomendable que des créditos_
 
-## Hola tqm
+## 🐒 Hola tqm
 No es bazofia el manual, si lo hizo Luis Mejía IrigoínGOD 
 
-## Encuentra más info en: 
+## ❔Encuentra más info en: 
 Ver [manual.](docs/Info.md)
