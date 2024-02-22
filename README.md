@@ -1,8 +1,8 @@
 
 <img src="https://i.imgur.com/qnbYimy.png">
 
-# Hola
-Bienvenido a esta basofia de repositorio.
+# -BIENVENIDO A REPOSITORIO SOBRE JAVA 2023-II-
+No es bazofia si lo hizo Luis Mejía IrigoínGOD 
 
 # Encuentra más info en: 
 Ver [manual.](docs/Info.md)
