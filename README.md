@@ -8,6 +8,3 @@ Bienvenido estimado lector programador. **Hemos creado este repositorio para sub
 
 ## 🐒 Hola tqm
 No es bazofia el manual, si lo hizo Luis Mejía IrigoínGOD 
-
-## ❔Encuentra más info en: 
-Ver [manual.](docs/Info.md)
