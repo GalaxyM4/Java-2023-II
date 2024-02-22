@@ -1,5 +1,5 @@
 
-<img src="https://i.imgur.com/p1lktyj.png" width: "40">
+<img src="https://i.imgur.com/p1lktyj.png" width="50" >
 
 # Hola
 Bienvenido a esta basofia de repositorio.
