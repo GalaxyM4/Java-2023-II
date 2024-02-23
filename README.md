@@ -8,3 +8,11 @@ Bienvenido estimado lector programador. **Hemos creado este repositorio para sub
 
 ## 🐒 Hola tqm
 No es bazofia el manual, si lo hizo Luis Mejía IrigoínGOD 
+
+|UNIDAD I| Unidad II | Unidad III| 
+|:---:|:---:|---:|
+|Introducción|Poliformismo|Ordenamientos|
+|Arrays|Matrices|?|
+|Clases|Recursividad|?
+|Actividades con Arrays y Clases|Vectores|?
+|Examen de Unidad I|Examen de Unidad II| ?
