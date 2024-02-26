@@ -29,14 +29,9 @@ public class QuickSort {
         int elmR = end;
 
         while (elmL <= elmR) {
-            while (elmL <= end && array[elmL] < pivot) {
-                elmL++;
-            }
-
-            while (elmR > start && array[elmR] >= pivot) {
-                elmR--;
-            }
-
+            while (array[elmL] < pivot && elmL <= end) elmL++;
+            while (array[elmR] >= pivot && elmR > start) elmR--;
+            
             if (elmL < elmR) {
                 var temp = array[elmL];
                 array[elmL] = array[elmR];
