@@ -48,6 +48,9 @@ public class QuickSort {
             int temp = array[start];
             array[start]=array[elmR];
             array[elmR]=temp;
-    }
+        }
+
+        sort(array, start, elmR - 1);
+        sort(array, elmR + 1, end);
     }
 }
